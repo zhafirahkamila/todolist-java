@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom style for DatePickerDialog -->
+    <style name="CustomDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="colorAccent">@color/calenderColor2</item>
+        <item name="colorPrimary">@color/calenderColor1</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+</resources>

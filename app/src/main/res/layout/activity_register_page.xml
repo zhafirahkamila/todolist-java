@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_2"
+    tools:context=".RegisterPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/calistoga"
+        android:text="Create Account"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:hint="Email"
+        android:textColorHint="#8D8A8B"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:drawablePadding="10dp"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Username"
+        android:textColorHint="#8D8A8B"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:drawablePadding="10dp"
+        android:background="@drawable/edittext_background"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Password"
+        android:textColorHint="#8D8A8B"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Repassword"
+        android:hint="Re-Password"
+        android:textColorHint="#8D8A8B"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:background="@drawable/edittext_background"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnsign"
+        android:layout_width="213dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#8C5B65"
+        android:text="Sign Up"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
