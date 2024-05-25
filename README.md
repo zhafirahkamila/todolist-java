@@ -25,3 +25,6 @@ It allows users to manage their daily tasks efficiently with a simple and intuit
 <img src="https://github.com/zhafirahkamila/todolist-java/assets/115094389/524a2960-a708-48a3-ae18-a811f96384dd" width="210" height="450" />
 <img src="https://github.com/zhafirahkamila/todolist-java/assets/115094389/5aa71866-62b8-4355-942d-c2e10e3606f6" width="210" height="450" />
 
+# NOTED:
+*This application is still under development and not yet completed.
+
