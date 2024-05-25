@@ -18,5 +18,5 @@ It allows users to manage their daily tasks efficiently with a simple and intuit
 - **Reminders:** Set reminders to get notified about upcoming tasks.
 
 ## Screen Displays
-<img src="https://github.com/zhafirahkamila/todolist-java/assets/115094389/88316da5-295b-4ac3-a007-d21ea778a1e2" width="200" height="400" />
+<img src="https://github.com/zhafirahkamila/todolist-java/assets/115094389/88316da5-295b-4ac3-a007-d21ea778a1e2" width="200" height="450" />
 
